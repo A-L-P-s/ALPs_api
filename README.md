@@ -4,30 +4,31 @@
 <!-- Opening -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/do-good-2211/do_good_api">
-    <img src=".github/do_good.jpg" alt="Logo" width="150" height="150">
+  (ADD LOGO HERE) <!--  <a href="https://github.com/A-L-P-s/ALPs_api">
+    <img src=".github/logo_ALPs.jpg" alt="Logo" width="150" height="150">
   </a> -->
 
-<h3 align="center">ALPs</h3>
-  <h1 align="center">Advanced Language Practices</h1>
+<h2 align="center">ALPs</h2>
+  <h2 align="center">Advanced Language Practices</h2>
     <p align="center">
-      Improve your language skills with immediate feedback & inspired regular practice!
-      <hr>
-      We've "climbed the mountain" of learning another language but to keep our skills fresh we need to regularly practice them! Language output (speaking & writing) is key yet writing everyday can get dull and you might never know if it's completely correct or not. <br><br> With ALPs, every writing challenge comes with a theme image for inspiration, grammar points and verbs to practice in your target language, AND immediate feedback with the help of AI!
-    </p>
+      Improve your language skills with inspiring images & immediate feedback!
+      <hr><br>
+      Now that you've "climbed the mountain" of learning another language, keep your skills fresh with regular practice! Language output (speaking & writing) is key but can get dull with routine drills, plus you may never know if it's entirely correct. <br><span>✨</span><br> With ALPs, every writing challenge comes with an inspiring image to ignite your imagination, a random verb & grammar points to help focus your language, and immediate feedback with the help of AI!
+    </p><br>
 </div>
 <hr>
+
 <br>
 
-
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+### Table of Contents
+
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#phase-1-built-with">Built With</a></li>
+        <li><a href="#agile-methodology">Agile Methodology</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -40,62 +41,71 @@
       </ul>
     </li>
     <li><a href="#endpoints">Endpoints</a></li>
-    <li><a href="#apis">APIs Used</a></li>
-    <li><a href="#technologies">Other Technologies Used</a></li>
+    <li><a href="#apis">External APIs</a></li>
+    <li><a href="#technologies">Stretch Technologies</a></li>
     <li><a href="#refactor">Future Iterations</a></li>
     <li><a href="#contact">Contributors</a></li>
   </ol>
-</details>
 <br>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<h2 id="about-the-project">About the Project</h2>
 
-   ☀️ [Production Website] (add link here)
-   <br>
-   ☀️ [Backend Service](https://git.heroku.com/calm-thicket-75558.git)
-   <br>
-   ☀️ [Front End Repository] (add link here)
-   <br>
-   <!-- * [Video Presentation]() -->
+---
+<span>🗻</span> [Production Website] (add link here)
+<br>
+<span>🗻</span> [Backend Service](https://git.heroku.com/calm-thicket-75558.git)
+<br>
+<span>🗻</span> [Front End Repository] (add link here)
+<br>
 
+[Video Presentation] (EMBED VIDEO HERE)
 
-  **A.L.P.s** was created by a cross-functional development team of students from the Turing School of Software and Design as their [capstone project](https://mod4.turing.edu/projects/capstone/).
+**ALPs** was created by a cross-functional development team of students from the Turing School of Software and Design as their [capstone project](https://mod4.turing.edu/projects/capstone/).
 
-  The mission of**A.L.P.s** is to provide users with writing promts that ignite their imagination and immediate feedback on their language output.
+The mission of **ALPs** is to provide users with writing promts that ignite their imagination and immediate feedback on their language output.
 
-  <!--Users simply click the "Find a Random Act of Kindness" button and are presented with 3 random acts to choose from. Once chosen, they schedule the "good deed" and it gets added to their dashboard. Users are able to invite others to join in on the fun as well as add it to their calendars because, let's be real, life can get hectic.
+Users simply choose their target language via an avatar to start a new challenge. When they begin, they'll see a random verb, inspiring image, and multiple grammar points to create fresh, unique sentences. Once they submit the challenge -- with the help of AI -- immediate feedback and correct sentences are provided so they can review and learn even faster! Users also have the option to email a copy of their work to themselves since tracking personal progress not only expediates growth but also cultivates confidence!
 
-  For visitors who aren't ready to jump into completing an act, they can browse our library of kind act photos for the feel-goods. -->
+<br>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Agile Methodology -->
+### Agile Methodology
+
+This method is a flexible and iterative approach to project management that focuses on collaboration, adaptability, and continuous improvement. 
+
+The `agile methodology` was chosen for backend development to expedite the app's launch and progressively abstract functions across multiple phases of development.
+
+<br>
 
 <!-- Built With -->
-### Phase 1: Built With
+### Built With
+#### Phase 1:
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) 
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) 
 <img src=".github/rspec_badge.png" alt="Rspec Badge" height="27">
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-<!-- ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) -->
 
-### Phase 2: Built With
+#### Phase 2:
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) 
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) 
 <img src=".github/rspec_badge.png" alt="Rspec Badge" height="27">
-![AmazonAWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-<!-- ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![SendGrid](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-<img src=".github/rspec_badge.png" alt="Rspec Badge" height="27"> -->
+![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![AmazonAWS](https://img.shields.io/badge/Amazon_AWS-7BB661?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+![SendGrid](https://img.shields.io/badge/Twilio_Sendgrid-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
+---
 
 If you'd like to demo this API on your local machine:
 1. Ensure you have the prerequisites
@@ -112,6 +122,8 @@ If you'd like to demo this API on your local machine:
 9. Run: `rails s`
 10. Visit http://localhost:3000/
 
+<br>
+
 <!-- Prerequisites -->
 ### Prerequisites
 
@@ -119,30 +131,39 @@ If you'd like to demo this API on your local machine:
 - Rails Version 7.0.4.x
 - Bundler Version 2.4.9
 
+<br>
+
 <!-- External API keys -->
 ### External API Keys
 
-- Sign up for your individual external API keys:
+Sign up for your individual external API keys:
 - [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
     - Follow instructions provided.
 - [OpenAI](https://platform.openai.com/overview)
     - Once you have signed up, click on your profile at the top left and selecting `View API keys`.
     - Then click `Create new secret key`.
 
+<br>
+
 <!-- Schema -->
 ### Schema
+#### Phase 1:
+<img src=".github/phase_1_schema.jpg" alt="Schema" width="100%">
 
-<img src=".github/schema_diagram.png" alt="Schema" width="100%">
+#### Phase 2:
+[Add second image] (when schema changes to microservices)
+
+<br>
 
 <!-- Testing -->
 ### Testing
 To test the entire spec suite, run `bundle exec rspec`.
 *All tests should be passing.*
 
-Happy path, sad path, and edge testing were considered and tested. When a request cannot be completed, an error object is returned.
+Happy path, sad path, and edge case testing were considered and tested. When a request cannot be completed, an error object is returned.
 
 <details>
-  <summary>Error Object</summary>
+  <summary>See Error Object</summary>
     <pre>
     <code>
 {
@@ -152,18 +173,43 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
       "detail": "Couldn't find User with 'id'=<id>"
      }
 }
-    </code>
-  </pre>
+    </code></pre>
+</details>
+
+<br>
+
+<!-- Status Codes -->
+### Status Codes
+
+<details><summary>See All</summary>
+
+**ALPs** reutrns the folowing status codes in it's API:
+
+| Status Code | Description |
+| :--- | :--- |
+| 200 | `OK` |
+| 201 | `CREATED` |
+| 204 | `NO CONTENT` |
+| 404 | `NOT FOUND` |
+| 418 | `I'M A TEAPOT` |
+| 422 | `UNPROCESSABLE CONTENT` |
+| 500 | `INTERNAL SERVER ERROR` |
+
 </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Endpoints -->
 ## Endpoints
-
+---
 <details>
   <summary><code>GET "/api/v1/users"</code></summary>
   Response:
+
+  | Code | Description |
+  | :--- | :--- |
+  | 200 | OK |
+
   <pre>
     <code>
 {
@@ -185,13 +231,17 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
       }
   }]
 }
-    </code>
-  </pre>
+  </code></pre> 
 </details>
 
 <details>
   <summary><code>GET "/api/v1/users/:id"</code></summary>
   Response:
+  
+  | Code | Description |
+  | :--- | :--- |
+  | 200 | OK |
+
   <pre>
     <code>
 {
@@ -216,13 +266,17 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
      }  
    }
 }
-    </code>
-  </pre>
+    </code></pre>
 </details>
 
 <details>
   <summary><code>GET "/api/v1/users/:id/challenges/prompt"</code></summary>
   Response:
+  
+  | Code | Description |
+  | :--- | :--- |
+  | 200 | OK |
+
   <pre>
     <code>
 {
@@ -247,8 +301,7 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
      }  
    }
 }
-    </code>
-  </pre>
+    </code></pre>
 </details>
 
 <details>
@@ -279,6 +332,11 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
   </pre>
 
   Response:
+  
+  | Code | Description |
+  | :--- | :--- |
+  | 201 | CREATED |
+
   <pre>
     <code>
   {
@@ -306,13 +364,17 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
      }  
    }
 }
-    </code>
-  </pre>
+    </code></pre>
 </details>
 
 <details>
   <summary><code>GET "/api/v1/users/:id/challenges/:challenge_id"</code></summary>
   Response:
+  
+  | Code | Description |
+  | :--- | :--- |
+  | 200 | OK |
+
   <pre>
     <code>
 {
@@ -340,17 +402,17 @@ Happy path, sad path, and edge testing were considered and tested. When a reques
      }  
    }
 }
-    </code>
-  </pre>
+    </code></pre>
 </details>
 
 <details>
   <summary><code>DELETE "/api/v1/users/:id/challenges/:challenge_id"</code></summary>
-  Response
-  <pre>
-    <code>
-Status: 204
-    </code>
+  Response:
+
+  | Code | Description |
+  | :--- | :--- |
+  | 204 | NO CONTENT |
+
   </pre>
 </details><br>
 
@@ -358,68 +420,75 @@ View these endpoints in [Postman] (add link here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- APIs Used -->
-<h2 id="apis">APIs Used</h2>
+<!-- External APIs -->
 
-[Unsplash API](https://unsplash.com/developers) was consumed to generate the random theme image for every writing challenge.
+ <summary><h2 id="apis">External APIs</h2></summary>
 
-[OpenAI API](https://openai.com/product) was used to correct sentences and provide immediate feedback on user's langauge output.
+---
+<summary><img src= ".github/logo_unsplash.jpg" style="width:35px; height:33px;"><a href="https://unsplash.com/developers"><strong> Unsplash Image API</strong></a></summary>
+
+<p>- Used to generate the random theme image for every writing challenge.</p><br>
+
+<summary><img src=".github/logo_open_ai.jpg" height="35"><a href="https://openai.com/product"><strong>  OpenAI API</strong></a></summary>
+
+<p>- Used to correct sentences and provide immediate feedback on user's language output.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Other Technologies Used -->
-<h2 id="technologies">Other Technologies Used</h2>
+<!-- Stretch Technologies -->
 
-<!-- [Google Cloud Platform](https://cloud.google.com/) was used to allow users to sign in with their Google account.
+<h2 id="technologies">Stetch Technologies</h2>
 
-<details>
-  <summary><img src="https://www.loginradius.com/blog/static/a9dad0fc4bf1af95243aa5e2d017bc22/a8669/google_cover.jpg" style="width:43px; height:33px;" > <strong>Google OAuth</strong></summary><br>
-  <p>Signing in to the Do Good app is made simple by allowing users to sign in with Google. </p>
-  
-  More information on the gem used for this(`omniauth-google-oauth2`) can be found [here](https://github.com/zquestz/omniauth-google-oauth2)
-</details>
-<br>
+---
+<!-- AWS -->
+<summary><img src= "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" style="width:60px; height:40px;"><a href="https://aws.amazon.com/"><strong> Elastic Beanstock Deployment</strong></a></summary>
 
-[Amazon Web Services](https://aws.amazon.com/) was used to allow users to upload photos for their completed good deeds.
+<p>- Amazon Web Services was used to deploy the application in phase 2.</p><br>
 
-<details>
-  <summary><img src= "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" style="width:60px; height:40px;"><strong>Amazon S3 Cloud Object Storage</strong></summary><br>
-  <p>By including amazon's web serfice for storage, we can allow users to upload their pictures which are then saved as objects in a "bucket".  </p>
+<!-- Python -->
+<summary><img src=".github/logo_python.jpg" height="30"><a href="https://www.python.org/"><strong> Python Programming Language</strong></a></summary>
 
-  More information on the gem used for this(`aws-sdk-s3`) can be found [here](https://github.com/aws/aws-sdk-ruby)
-</details>
-<br>
+<p>- Used as the programming language to build microservices in phase 2.</p><br>
 
-[Twilio SendGrid](https://sendgrid.com/) was used to send an email to the user after they create a good deed
+<!-- Django -->
+<summary><img src=".github/logo_django.jpg" height="30"><a href="https://www.djangoproject.com/"><strong> Django Web Framework</strong></a></summary>
 
-<details>
-  <summary><img src="https://sendgrid.com/brand/sg-twilio/SG_Twilio_Lockup_RGB-WHT-Textx2.png" height="23"><strong> Email Service</strong></summary><br>
-    <p>The host and attendees will receive an email upon the completion of a good deed.</p>
+<p>- Used as the web framework to build microservices in phase 2.</p><br>
 
-</details><br>
--->
+<!-- Twilio / Sendgrid -->
+<summary><img src=".github/logo_twilio_sendgrid.jpg" height="28"><a href="https://sendgrid.com/"><strong> Twilio/Sendgrid Email Service</strong></a></summary>
+
+<p>- Used to allow users to email themselves a copy of their completed challenge.</p>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- Future Iterations -->
 
 <h2 id="refactor">Future Iterations</h2>
-<!--
+
+---
 <details>
-  <summary>Rafactor/Changes</summary>
+  <summary>See Refactoring Suggestions</summary>
   <dl>
-    <dt>Pull other APIs</dt>
-      <dd>- Locally available volunteer opportunities</dd>
-    <dt>Refactor Serializers</dt>
-      <dd>- Specifcally the good deeds serializers</dd>
+    <dt>Add authorization & authentication</dt>
+      <dd>- Allow users to create own profile and dashboard</dd>
+    <dt>Expand AI functionality</dt>
+      <dd>- Add questions/quizes created by AI for language topics</dd>
+      <dd>- Create and save flashcards</dd>
+    <dt>Create administrative role</dt>
+      <dd>- Track statistics of all users and languages</dd>
   </dl>
 </details>
--->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="contact">Contributors</h2>
 
-| [<img alt="Kirk Hauck" width="75" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="75" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="75" src=".github/katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="75" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="75" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
+---
+<br>
+
+| [<img alt="Kirk Hauck" width="100" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="100" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="100" src=".github/katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="100" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="100" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
 | ------------------ | ------------ | -------------- | ----------- | -------------- | 
 | Kirk Hauck | Bea Ordonez | Katherine Blaine | Tyalor Pridgen | Brian Zanti | 
 | FrontEnd | FrontEnd | FrontEnd | Project Mentor | Project Manager |
@@ -428,7 +497,7 @@ View these endpoints in [Postman] (add link here)
 
 <br>
 
-| [<img alt="Caleb Thomas" width="75" src=".github/caleb.jpg"/>](https://www.linkedin.com/in/calebjthomas/) | [<img alt="James Taylor" width="75" src=".github/james.jpg"/>](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [<img alt="Huy Phan" width="75" src=".github/huy.jpg"/>](https://www.linkedin.com/in/huy-phan-2471b3261/) | [<img alt="David Marino" width="75" src=".github/david.jpg"/>](https://www.linkedin.com/in/davidjmarino8/) | [<img alt="Melony Erin Franchini" width="75" src=".github/mel.jpg"/>](https://www.linkedin.com/in/melony-erin-franchini/) |
+| [<img alt="Caleb Thomas" width="100" src=".github/caleb.jpg"/>](https://www.linkedin.com/in/calebjthomas/) | [<img alt="James Taylor" width="100" src=".github/james.jpg"/>](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [<img alt="Huy Phan" width="100" src=".github/huy.jpg"/>](https://www.linkedin.com/in/huy-phan-2471b3261/) | [<img alt="David Marino" width="100" src=".github/david.jpg"/>](https://www.linkedin.com/in/davidjmarino8/) | [<img alt="Melony Erin Franchini" width="100" src=".github/mel.jpg"/>](https://www.linkedin.com/in/melony-erin-franchini/) |
 | ------------------ | ------------ | -------------- | ----------- | -------------- | 
 | Caleb Thomas | James Taylor | Huy Phan | David Marino | Melony Erin Franchini |
 | BackEnd | BackEnd | BackEnd | BackEnd | BackEnd | 
@@ -436,4 +505,3 @@ View these endpoints in [Postman] (add link here)
 | [LinkedIn](https://www.linkedin.com/in/calebjthomas/) |  [LinkedIn](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [LinkedIn](https://www.linkedin.com/in/huy-phan-2471b3261/) | [LinkedIn](https://www.linkedin.com/in/davidjmarino8/) | [LinkedIn](https://www.linkedin.com/in/melony-erin-franchini/) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
