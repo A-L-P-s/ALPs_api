@@ -8,12 +8,12 @@
     <img src=".github/do_good.jpg" alt="Logo" width="150" height="150">
   </a> -->
 
-<h3 align="center">A.L.P.s</h3>
+<h3 align="center">ALPs</h3>
   <h1 align="center">Advanced Language Practices</h1>
     <p align="center">
       Improve your language skills with immediate feedback & inspired regular practice!
       <hr>
-      We've "climbed the mountain" of learning another language but to keep our skills fresh we need to regularly practice them! Language output (speaking & writing) is key yet writing everyday can get dull and you might never know if it's completely correct or not. With A.L.P.s, every writing challenge comes with a theme image for inspiration, grammar points and verbs to practice in your target language, AND immediate feedback with the help of AI!
+      We've "climbed the mountain" of learning another language but to keep our skills fresh we need to regularly practice them! Language output (speaking & writing) is key yet writing everyday can get dull and you might never know if it's completely correct or not. <br><br> With ALPs, every writing challenge comes with a theme image for inspiration, grammar points and verbs to practice in your target language, AND immediate feedback with the help of AI!
     </p>
 </div>
 <hr>
@@ -27,13 +27,14 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#phase-1-built-with">Built With</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#external-api-keys">External API Keys</a></li>
         <li><a href="#schema">Schema</a></li>
         <li><a href="#testing">Testing</a></li>
       </ul>
@@ -41,8 +42,8 @@
     <li><a href="#endpoints">Endpoints</a></li>
     <li><a href="#apis">APIs Used</a></li>
     <li><a href="#technologies">Other Technologies Used</a></li>
-    <li><a href="#contact">Contributors</a></li>
     <li><a href="#refactor">Future Iterations</a></li>
+    <li><a href="#contact">Contributors</a></li>
   </ol>
 </details>
 <br>
@@ -119,7 +120,7 @@ If you'd like to demo this API on your local machine:
 - Bundler Version 2.4.9
 
 <!-- External API keys -->
-### External APIs
+### External API Keys
 
 - Sign up for your individual external API keys:
 - [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
@@ -418,7 +419,7 @@ View these endpoints in [Postman] (add link here)
 
 <h2 id="contact">Contributors</h2>
 
-| [<img alt="Kirk Hauck" width="75" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="75" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="75" src=".github/Katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="75" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="75" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
+| [<img alt="Kirk Hauck" width="75" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="75" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="75" src=".github/katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="75" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="75" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
 | ------------------ | ------------ | -------------- | ----------- | -------------- | 
 | Kirk Hauck | Bea Ordonez | Katherine Blaine | Tyalor Pridgen | Brian Zanti | 
 | FrontEnd | FrontEnd | FrontEnd | Project Mentor | Project Manager |
