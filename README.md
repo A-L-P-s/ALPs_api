@@ -366,10 +366,10 @@ View these endpoints in [Postman] (add link here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Other Technologies Used 
+<!-- Other Technologies Used -->
 <h2 id="technologies">Other Technologies Used</h2>
 
-[Google Cloud Platform](https://cloud.google.com/) was used to allow users to sign in with their Google account.
+<!-- [Google Cloud Platform](https://cloud.google.com/) was used to allow users to sign in with their Google account.
 
 <details>
   <summary><img src="https://www.loginradius.com/blog/static/a9dad0fc4bf1af95243aa5e2d017bc22/a8669/google_cover.jpg" style="width:43px; height:33px;" > <strong>Google OAuth</strong></summary><br>
@@ -396,13 +396,14 @@ View these endpoints in [Postman] (add link here)
     <p>The host and attendees will receive an email upon the completion of a good deed.</p>
 
 </details><br>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Future Iterations 
+
+<!-- Future Iterations -->
 
 <h2 id="refactor">Future Iterations</h2>
+<!--
 <details>
   <summary>Rafactor/Changes</summary>
   <dl>
@@ -412,20 +413,26 @@ View these endpoints in [Postman] (add link here)
       <dd>- Specifcally the good deeds serializers</dd>
   </dl>
 </details>
-
-
-
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h2 id="contact">Contributors</h2>
 
+| [<img alt="Kirk Hauck" width="75" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="75" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="75" src=".github/Katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="75" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="75" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
+| ------------------ | ------------ | -------------- | ----------- | -------------- | 
+| Kirk Hauck | Bea Ordonez | Katherine Blaine | Tyalor Pridgen | Brian Zanti | 
+| FrontEnd | FrontEnd | FrontEnd | Project Mentor | Project Manager |
+| [GitHub](https://github.com/kirkhauck) | [GitHub](https://github.com/bea-ordonez) | [GitHub](https://github.com/KatherineBlaine) | [GitHub](https://github.com/pridgey) | [GitHub](https://github.com/BrianZanti) |
+| [LinkedIn](https://www.linkedin.com/in/kirk-hauck/) |  [LinkedIn](https://www.linkedin.com/in/bea-ordonez/) | [LinkedIn](https://www.linkedin.com/in/katherinekblaine/) | [LinkedIn](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [LinkedIn](https://www.linkedin.com/in/brianzanti/) |
 
-| [<img alt="Huy Phan" width="75" src=".github/Huy.png"/>](https://www.linkedin.com/in/huy-phan-2471b3261/) | [<img alt="Jasmine Hamou" width="75" src=".github/Jasmine.jpg"/>](https://www.linkedin.com/in/jasmine-hamou/) | [<img alt="Kara Jones-Hofmann" width="75" src=".github/Kara.jpeg"/>](https://www.linkedin.com/in/81012911-91208/) | [<img alt="Matt Enyeart" width="75" src=".github/Matt.jpeg"/>](https://www.linkedin.com/in/matt-enyeart/) | [<img alt="Melony Erin Franchini" width="75" src=".github/Mel.jpeg"/>](https://www.linkedin.com/in/melony-erin-franchini/) | [<img alt="Mike Dao" width="75" src=".github/Mike.jpeg"/>](https://www.linkedin.com/in/michaeldao/) |
-| ------------------ | ------------ | -------------- | ----------- | -------------- | ----------- |
-| Huy Phan | Jasmine Hamou | Kara Jones-Hofmann | Matt Enyeart | Melony Erin Franchini | Mike Dao |
-| Collaborator | Collaborator | Collaborator | Collaborator | Collaborator | Project Manager |
-| [GitHub](https://github.com/HuyPhan2025) | [GitHub](https://github.com/hamouj) | [GitHub](https://github.com/KaraJoHo) | [GitHub](https://github.com/menyeart) | [GitHub](https://github.com/MelTravelz) | [GitHub](https://github.com/mikedao) |
-| [LinkedIn](https://www.linkedin.com/in/huy-phan-2471b3261/) |  [LinkedIn](https://www.linkedin.com/in/jasmine-hamou/) | [LinkedIn](https://www.linkedin.com/in/81012911-91208/) | [LinkedIn](https://www.linkedin.com/in/matt-enyeart/) | [LinkedIn](https://www.linkedin.com/in/melony-erin-franchini/) | [LinkedIn](https://www.linkedin.com/in/michaeldao/) |
+<br>
+
+| [<img alt="Caleb Thomas" width="75" src=".github/caleb.jpg"/>](https://www.linkedin.com/in/calebjthomas/) | [<img alt="James Taylor" width="75" src=".github/james.jpg"/>](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [<img alt="Huy Phan" width="75" src=".github/huy.jpg"/>](https://www.linkedin.com/in/huy-phan-2471b3261/) | [<img alt="David Marino" width="75" src=".github/david.jpg"/>](https://www.linkedin.com/in/davidjmarino8/) | [<img alt="Melony Erin Franchini" width="75" src=".github/mel.jpg"/>](https://www.linkedin.com/in/melony-erin-franchini/) |
+| ------------------ | ------------ | -------------- | ----------- | -------------- | 
+| Caleb Thomas | James Taylor | Huy Phan | David Marino | Melony Erin Franchini |
+| BackEnd | BackEnd | BackEnd | BackEnd | BackEnd | 
+| [GitHub](https://github.com/cjthomas00) | [GitHub](https://github.com/JTaylor28) | [GitHub](https://github.com/HuyPhan2025) | [GitHub](https://github.com/davejm8) | [GitHub](https://github.com/MelTravelz) |
+| [LinkedIn](https://www.linkedin.com/in/calebjthomas/) |  [LinkedIn](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [LinkedIn](https://www.linkedin.com/in/huy-phan-2471b3261/) | [LinkedIn](https://www.linkedin.com/in/davidjmarino8/) | [LinkedIn](https://www.linkedin.com/in/melony-erin-franchini/) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
