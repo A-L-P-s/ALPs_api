@@ -58,7 +58,7 @@ Sentence.create(id: 47, challenge_id: 103, grammar_point: "pretérito indefinido
 Verb.create(language: "Turkish", verb: "(le/la) uğraşmak", eng_verb: "to deal with")
 Verb.create(language: "Turkish", verb: "(e/a) gitmek", eng_verb: "to go")
 Verb.create(language: "Turkish", verb: "(e/a) tavsiye etmek", eng_verb: "to recommend")
-Verb.create(language: "Turkish", verb: "(e/a) aldırmak", eng_verb: "to pay attention/to ignore")
+Verb.create(language: "Turkish", verb: "(e/a) aldırmamak", eng_verb: "to ignore")
 Verb.create(language: "Turkish", verb: "(i) tercih etmek", eng_verb: "to prefer")
 Verb.create(language: "Turkish", verb: "(i) bilmek", eng_verb: "to know")
 Verb.create(language: "Turkish", verb: "(i) alışmak", eng_verb: "to get used to")
