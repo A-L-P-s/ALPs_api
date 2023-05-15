@@ -56,7 +56,7 @@
 <br>
 <span>🔸</span> [Backend Service](https://git.heroku.com/calm-thicket-75558.git)
 <br>
-<span>🔸</span> [Front End Repository] (add link here)
+<span>🔸</span> [Front End Repository](https://github.com/A-L-P-s/alps-ui)
 <br>
 
 [Video Presentation] (EMBED VIDEO HERE)
@@ -80,26 +80,28 @@ The `agile methodology` was chosen for backend development to expedite the app's
 
 <!-- Built With -->
 ### Built With
-#### Phase 1:
-
+#### `Phase 1:` Delivered Minimum Viable Product (MVC)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) 
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) 
-<img src=".github/rspec_badge.png" alt="Rspec Badge" height="27">
+<img src=".github/logo_rspec.jpg" alt="Rspec Badge" height="27">
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-10A28C.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-4B0082.svg?style=for-the-badge&logo=git&logoColor=white)
+<img src=".github/logo_github_actions.jpg" alt="GitHub Actions Badge" height="27">
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
-#### Phase 2:
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) 
-![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) 
-<img src=".github/rspec_badge.png" alt="Rspec Badge" height="27">
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AmazonAWS](https://img.shields.io/badge/Amazon_AWS-7BB661?style=for-the-badge&logo=amazonaws&logoColor=white)
+<br>
+
+#### `Phase 2:` Refactored Deployment
+- Replaced: ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) With: ![AmazonAWS](https://img.shields.io/badge/AWS_Elastic_Beanstalk-7BB661?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+<br>
+
+#### `Phase 3:` Abstracted Functionality with Additional Stretch Technologies
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
-![SendGrid](https://img.shields.io/badge/Twilio_Sendgrid-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-
+![Twilio/SendGrid](https://img.shields.io/badge/Twilio/Sendgrid-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,7 +272,7 @@ Happy path, sad path, and edge case testing were considered and tested. When a r
 </details>
 
 <details>
-  <summary><code>GET "/api/v1/users/:id/challenges/prompt"</code></summary>
+  <summary><code>GET "/api/v1/users/:id/challenges/new"</code></summary>
   Response:
   
   | Code | Description |
@@ -437,7 +439,7 @@ View these endpoints in [Postman] (add link here)
 
 <!-- Stretch Technologies -->
 
-<h2 id="technologies">Stetch Technologies</h2>
+<h2 id="technologies">Stretch Technologies</h2>
 
 ---
 <!-- AWS -->
