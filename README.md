@@ -4,16 +4,16 @@
 <!-- Opening -->
 <br />
 <div align="center">
-  (ADD LOGO HERE) <!--  <a href="https://github.com/A-L-P-s/ALPs_api">
-    <img src=".github/logo_ALPs.jpg" alt="Logo" width="150" height="150">
-  </a> -->
-
-<h2 align="center">ALPs</h2>
-  <h2 align="center">Advanced Language Practices</h2>
+  <a href="https://github.com/A-L-P-s/ALPs_api">
+    <img src=".github/ALPs_logo_v2.jpg" alt="Logo" width="350">
+  </a>
+ 
+<!-- <h2 align="center"></h2> -->
+  <h2 align="center">Advanced Language Practices (ALPs)</h2>
     <p align="center">
       Improve your language skills with inspiring images & immediate feedback!
       <hr><br>
-      Now that you've "climbed the mountain" of learning another language, keep your skills fresh with regular practice! Language output (speaking & writing) is key but can get dull with routine drills, plus you may never know if it's entirely correct. <br><span>✨</span><br> With ALPs, every writing challenge comes with an inspiring image to ignite your imagination, a random verb & grammar points to help focus your language, and immediate feedback with the help of AI!
+      Now that you've "climbed the mountain" of learning another language, keep your skills fresh with regular practice! Language output (speaking & writing) is key but can get dull with routine drills, plus you may never know if it's entirely correct. <br><span>🔸</span><br> With ALPs, every writing challenge comes with an inspiring image to ignite your imagination, a random verb & grammar points to help focus your language, and immediate feedback with the help of AI!
     </p><br>
 </div>
 <hr>
@@ -52,11 +52,11 @@
 <h2 id="about-the-project">About the Project</h2>
 
 ---
-<span>🗻</span> [Production Website] (add link here)
+<span>🔸</span> [Production Website] (add link here)
 <br>
-<span>🗻</span> [Backend Service](https://git.heroku.com/calm-thicket-75558.git)
+<span>🔸</span> [Backend Service](https://git.heroku.com/calm-thicket-75558.git)
 <br>
-<span>🗻</span> [Front End Repository] (add link here)
+<span>🔸</span> [Front End Repository] (add link here)
 <br>
 
 [Video Presentation] (EMBED VIDEO HERE)
@@ -137,9 +137,9 @@ If you'd like to demo this API on your local machine:
 ### External API Keys
 
 Sign up for your individual external API keys:
-- [Unsplash](https://unsplash.com/documentation#creating-a-developer-account)
+- [Unsplash Image API](https://unsplash.com/documentation#creating-a-developer-account)
     - Follow instructions provided.
-- [OpenAI](https://platform.openai.com/overview)
+- [OpenAI API](https://platform.openai.com/overview)
     - Once you have signed up, click on your profile at the top left and selecting `View API keys`.
     - Then click `Create new secret key`.
 
@@ -183,7 +183,7 @@ Happy path, sad path, and edge case testing were considered and tested. When a r
 
 <details><summary>See All</summary>
 
-**ALPs** reutrns the folowing status codes in it's API:
+**ALPs** API reutrns the folowing status codes:
 
 | Status Code | Description |
 | :--- | :--- |
@@ -425,7 +425,7 @@ View these endpoints in [Postman] (add link here)
  <summary><h2 id="apis">External APIs</h2></summary>
 
 ---
-<summary><img src= ".github/logo_unsplash.jpg" style="width:35px; height:33px;"><a href="https://unsplash.com/developers"><strong> Unsplash Image API</strong></a></summary>
+<summary><img src= ".github/logo_unsplash.jpg" height="35"><a href="https://unsplash.com/developers"><strong> Unsplash Image API</strong></a></summary>
 
 <p>- Used to generate the random theme image for every writing challenge.</p><br>
 
@@ -443,22 +443,22 @@ View these endpoints in [Postman] (add link here)
 <!-- AWS -->
 <summary><img src= "https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" style="width:60px; height:40px;"><a href="https://aws.amazon.com/"><strong> Elastic Beanstock Deployment</strong></a></summary>
 
-<p>- Amazon Web Services was used to deploy the application in phase 2.</p><br>
+<p>- Phase 2: Amazon Web Services was used to deploy the application.</p><br>
 
 <!-- Python -->
 <summary><img src=".github/logo_python.jpg" height="30"><a href="https://www.python.org/"><strong> Python Programming Language</strong></a></summary>
 
-<p>- Used as the programming language to build microservices in phase 2.</p><br>
+<p>- Phase 2: Used as the programming language to build microservices.</p><br>
 
 <!-- Django -->
 <summary><img src=".github/logo_django.jpg" height="30"><a href="https://www.djangoproject.com/"><strong> Django Web Framework</strong></a></summary>
 
-<p>- Used as the web framework to build microservices in phase 2.</p><br>
+<p>- Phase 2: Used as the web framework to build microservices.</p><br>
 
 <!-- Twilio / Sendgrid -->
 <summary><img src=".github/logo_twilio_sendgrid.jpg" height="28"><a href="https://sendgrid.com/"><strong> Twilio/Sendgrid Email Service</strong></a></summary>
 
-<p>- Used to allow users to email themselves a copy of their completed challenge.</p>
+<p>- Phase 2: Used to allow users to email themselves a copy of their completed challenge.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -471,12 +471,12 @@ View these endpoints in [Postman] (add link here)
 <details>
   <summary>See Refactoring Suggestions</summary>
   <dl>
-    <dt>Add authorization & authentication</dt>
+    <dt><span>🔸</span> Add authorization & authentication</dt>
       <dd>- Allow users to create own profile and dashboard</dd>
-    <dt>Expand AI functionality</dt>
+    <dt><span>🔸</span> Expand AI functionality</dt>
       <dd>- Add questions/quizes created by AI for language topics</dd>
       <dd>- Create and save flashcards</dd>
-    <dt>Create administrative role</dt>
+    <dt><span>🔸</span> Create administrative role</dt>
       <dd>- Track statistics of all users and languages</dd>
   </dl>
 </details>
