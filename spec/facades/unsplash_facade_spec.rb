@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe UnsplashFacade do
-  describe "instance methods", :vcr do
+RSpec.describe UnsplashFacade, :vcr do
+  describe "instance methods" do
     before do
       @deniz = User.create(id: 55, name: "Deniz", preferred_lang: "Turkish")
 
