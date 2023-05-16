@@ -75,6 +75,8 @@ end
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  config.configure_rspec_metadata!
   config.hook_into :webmock
+  config.filter_sensitive_data('UNSPLASH_API_KEY') { ENV['UNSPLASH_API_KEY'] }
+  config.filter_sensitive_data('OPEN_AI_API_KEY') { ENV['OPEN_AI_API_KEY'] }
+  config.configure_rspec_metadata!
 end

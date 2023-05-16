@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.unsplash.com/photos/random?client_id=UNSPLASH_API_KEY&count=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - Cowboy
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining
+      Cache-Control:
+      - private,max-age=0,stale-if-error=3600,stale-while-revalidate=0
+      X-Unsplash-Version:
+      - v1
+      X-Powered-By:
+      - hero-app
+      Content-Language:
+      - en
+      Etag:
+      - W/"199162b69b963f7d5a54257f76844a68"
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Remaining:
+      - '49'
+      X-Request-Id:
+      - 02db9afa-2176-4084-8250-8090edd8e97f
+      X-Runtime:
+      - '0.041321'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 16 May 2023 16:00:44 GMT
+      X-Served-By:
+      - cache-iad-kcgs7200062-IAD, cache-chi-kigq8000165-CHI
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Timer:
+      - S1684252844.022577,VS0,VE77
+      Vary:
+      - Accept-Encoding,Authorization,Accept-Language,Accept
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaWQiOiI4TXNtakU4cW5mOCIsInNsdWciOiI4TXNtakU4cW5mOCIsImNyZWF0ZWRfYXQiOiIyMDIzLTA0LTI1VDExOjA2OjI2WiIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE1VDE5OjMzOjQ0WiIsInByb21vdGVkX2F0IjoiMjAyMy0wNC0yOFQxNjo1OToyMFoiLCJ3aWR0aCI6NDAwMCwiaGVpZ2h0IjoyNjY3LCJjb2xvciI6IiMyNjBjMGMiLCJibHVyX2hhc2giOiJMODh8VjY5YUlvUk9SaldDb0tTNTBLeER4dVMkIiwiZGVzY3JpcHRpb24iOm51bGwsImFsdF9kZXNjcmlwdGlvbiI6ImEgd29tYW4gc2l0dGluZyBvbiB0aGUgZmxvb3IgaG9sZGluZyBhIGNlbGwgcGhvbmUiLCJ1cmxzIjp7InJhdyI6Imh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNjgyNDIwMjAzNjY0LWUyMmFjMDdlZTJhMD9peGlkPU0zdzBORGd4TmpWOE1Id3hmSEpoYm1SdmJYeDhmSHg4Zkh4OGZERTJPRFF5TlRJNE5EUjhcdTAwMjZpeGxpYj1yYi00LjAuMyIsImZ1bGwiOiJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTY4MjQyMDIwMzY2NC1lMjJhYzA3ZWUyYTA/Y3JvcD1lbnRyb3B5XHUwMDI2Y3M9c3JnYlx1MDAyNmZtPWpwZ1x1MDAyNml4aWQ9TTN3ME5EZ3hOalY4TUh3eGZISmhibVJ2Ylh4OGZIeDhmSHg4ZkRFMk9EUXlOVEk0TkRSOFx1MDAyNml4bGliPXJiLTQuMC4zXHUwMDI2cT04NSIsInJlZ3VsYXIiOiJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTY4MjQyMDIwMzY2NC1lMjJhYzA3ZWUyYTA/Y3JvcD1lbnRyb3B5XHUwMDI2Y3M9dGlueXNyZ2JcdTAwMjZmaXQ9bWF4XHUwMDI2Zm09anBnXHUwMDI2aXhpZD1NM3cwTkRneE5qVjhNSHd4ZkhKaGJtUnZiWHg4Zkh4OGZIeDhmREUyT0RReU5USTRORFI4XHUwMDI2aXhsaWI9cmItNC4wLjNcdTAwMjZxPTgwXHUwMDI2dz0xMDgwIiwic21hbGwiOiJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTY4MjQyMDIwMzY2NC1lMjJhYzA3ZWUyYTA/Y3JvcD1lbnRyb3B5XHUwMDI2Y3M9dGlueXNyZ2JcdTAwMjZmaXQ9bWF4XHUwMDI2Zm09anBnXHUwMDI2aXhpZD1NM3cwTkRneE5qVjhNSHd4ZkhKaGJtUnZiWHg4Zkh4OGZIeDhmREUyT0RReU5USTRORFI4XHUwMDI2aXhsaWI9cmItNC4wLjNcdTAwMjZxPTgwXHUwMDI2dz00MDAiLCJ0aHVtYiI6Imh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNjgyNDIwMjAzNjY0LWUyMmFjMDdlZTJhMD9jcm9wPWVudHJvcHlcdTAwMjZjcz10aW55c3JnYlx1MDAyNmZpdD1tYXhcdTAwMjZmbT1qcGdcdTAwMjZpeGlkPU0zdzBORGd4TmpWOE1Id3hmSEpoYm1SdmJYeDhmSHg4Zkh4OGZERTJPRFF5TlRJNE5EUjhcdTAwMjZpeGxpYj1yYi00LjAuM1x1MDAyNnE9ODBcdTAwMjZ3PTIwMCIsInNtYWxsX3MzIjoiaHR0cHM6Ly9zMy51cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9pbWFnZXMudW5zcGxhc2guY29tL3NtYWxsL3Bob3RvLTE2ODI0MjAyMDM2NjQtZTIyYWMwN2VlMmEwIn0sImxpbmtzIjp7InNlbGYiOiJodHRwczovL2FwaS51bnNwbGFzaC5jb20vcGhvdG9zLzhNc21qRThxbmY4IiwiaHRtbCI6Imh0dHBzOi8vdW5zcGxhc2guY29tL3Bob3Rvcy84TXNtakU4cW5mOCIsImRvd25sb2FkIjoiaHR0cHM6Ly91bnNwbGFzaC5jb20vcGhvdG9zLzhNc21qRThxbmY4L2Rvd25sb2FkP2l4aWQ9TTN3ME5EZ3hOalY4TUh3eGZISmhibVJ2Ylh4OGZIeDhmSHg4ZkRFMk9EUXlOVEk0TkRSOCIsImRvd25sb2FkX2xvY2F0aW9uIjoiaHR0cHM6Ly9hcGkudW5zcGxhc2guY29tL3Bob3Rvcy84TXNtakU4cW5mOC9kb3dubG9hZD9peGlkPU0zdzBORGd4TmpWOE1Id3hmSEpoYm1SdmJYeDhmSHg4Zkh4OGZERTJPRFF5TlRJNE5EUjgifSwibGlrZXMiOjE4LCJsaWtlZF9ieV91c2VyIjpmYWxzZSwiY3VycmVudF91c2VyX2NvbGxlY3Rpb25zIjpbXSwic3BvbnNvcnNoaXAiOm51bGwsInRvcGljX3N1Ym1pc3Npb25zIjp7ImJ1c2luZXNzLXdvcmsiOnsic3RhdHVzIjoicmVqZWN0ZWQifX0sInVzZXIiOnsiaWQiOiJDQ1BhWnRFYjNqYyIsInVwZGF0ZWRfYXQiOiIyMDIzLTA1LTE2VDEzOjUyOjQ1WiIsInVzZXJuYW1lIjoicmhhbWVseSIsIm5hbWUiOiJSaGFtZWx5IiwiZmlyc3RfbmFtZSI6IlJoYW1lbHkiLCJsYXN0X25hbWUiOm51bGwsInR3aXR0ZXJfdXNlcm5hbWUiOm51bGwsInBvcnRmb2xpb191cmwiOiJodHRwczovL3d3dy5yaGFtZWx5LmNvbSIsImJpbyI6Ikl0YWx5IC8vIFBob3RvZ3JhcGhlciArIGNvbnRlbnQgY3JlYXRvciAvLyBGcmVlbGFuY2UgLy8g8J+RiSB3d3cucmhhbWVseS5jb20iLCJsb2NhdGlvbiI6Ik5vcnRoZXJuIEl0YWx5IiwibGlua3MiOnsic2VsZiI6Imh0dHBzOi8vYXBpLnVuc3BsYXNoLmNvbS91c2Vycy9yaGFtZWx5IiwiaHRtbCI6Imh0dHBzOi8vdW5zcGxhc2guY29tL0ByaGFtZWx5IiwicGhvdG9zIjoiaHR0cHM6Ly9hcGkudW5zcGxhc2guY29tL3VzZXJzL3JoYW1lbHkvcGhvdG9zIiwibGlrZXMiOiJodHRwczovL2FwaS51bnNwbGFzaC5jb20vdXNlcnMvcmhhbWVseS9saWtlcyIsInBvcnRmb2xpbyI6Imh0dHBzOi8vYXBpLnVuc3BsYXNoLmNvbS91c2Vycy9yaGFtZWx5L3BvcnRmb2xpbyIsImZvbGxvd2luZyI6Imh0dHBzOi8vYXBpLnVuc3BsYXNoLmNvbS91c2Vycy9yaGFtZWx5L2ZvbGxvd2luZyIsImZvbGxvd2VycyI6Imh0dHBzOi8vYXBpLnVuc3BsYXNoLmNvbS91c2Vycy9yaGFtZWx5L2ZvbGxvd2VycyJ9LCJwcm9maWxlX2ltYWdlIjp7InNtYWxsIjoiaHR0cHM6Ly9pbWFnZXMudW5zcGxhc2guY29tL3Byb2ZpbGUtMTY4MDk2MjY3NTA2Mi0wOWNhNGJiYTNlNzVpbWFnZT9peGxpYj1yYi00LjAuM1x1MDAyNmNyb3A9ZmFjZXNcdTAwMjZmaXQ9Y3JvcFx1MDAyNnc9MzJcdTAwMjZoPTMyIiwibWVkaXVtIjoiaHR0cHM6Ly9pbWFnZXMudW5zcGxhc2guY29tL3Byb2ZpbGUtMTY4MDk2MjY3NTA2Mi0wOWNhNGJiYTNlNzVpbWFnZT9peGxpYj1yYi00LjAuM1x1MDAyNmNyb3A9ZmFjZXNcdTAwMjZmaXQ9Y3JvcFx1MDAyNnc9NjRcdTAwMjZoPTY0IiwibGFyZ2UiOiJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcHJvZmlsZS0xNjgwOTYyNjc1MDYyLTA5Y2E0YmJhM2U3NWltYWdlP2l4bGliPXJiLTQuMC4zXHUwMDI2Y3JvcD1mYWNlc1x1MDAyNmZpdD1jcm9wXHUwMDI2dz0xMjhcdTAwMjZoPTEyOCJ9LCJpbnN0YWdyYW1fdXNlcm5hbWUiOiJyaGFtZWx5IiwidG90YWxfY29sbGVjdGlvbnMiOjMyLCJ0b3RhbF9saWtlcyI6MTE4MSwidG90YWxfcGhvdG9zIjo3MDksImFjY2VwdGVkX3RvcyI6dHJ1ZSwiZm9yX2hpcmUiOnRydWUsInNvY2lhbCI6eyJpbnN0YWdyYW1fdXNlcm5hbWUiOiJyaGFtZWx5IiwicG9ydGZvbGlvX3VybCI6Imh0dHBzOi8vd3d3LnJoYW1lbHkuY29tIiwidHdpdHRlcl91c2VybmFtZSI6bnVsbCwicGF5cGFsX2VtYWlsIjpudWxsfX0sImV4aWYiOnsibWFrZSI6bnVsbCwibW9kZWwiOm51bGwsIm5hbWUiOm51bGwsImV4cG9zdXJlX3RpbWUiOm51bGwsImFwZXJ0dXJlIjpudWxsLCJmb2NhbF9sZW5ndGgiOm51bGwsImlzbyI6bnVsbH0sImxvY2F0aW9uIjp7Im5hbWUiOm51bGwsImNpdHkiOm51bGwsImNvdW50cnkiOm51bGwsInBvc2l0aW9uIjp7ImxhdGl0dWRlIjowLjAsImxvbmdpdHVkZSI6MC4wfX0sInZpZXdzIjo0NjgxNjMsImRvd25sb2FkcyI6Mjk3NH1d
+  recorded_at: Tue, 16 May 2023 16:00:44 GMT
+- request:
+    method: get
+    uri: https://api.unsplash.com/photos/random?client_id=UNSPLASH_API_KEY&count=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Server:
+      - Cowboy
+      Content-Type:
+      - application/json
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Request-Method:
+      - "*"
+      Access-Control-Allow-Headers:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Link,X-Total,X-Per-Page,X-RateLimit-Limit,X-RateLimit-Remaining
+      Cache-Control:
+      - private,max-age=0,stale-if-error=3600,stale-while-revalidate=0
+      X-Unsplash-Version:
+      - v1
+      X-Powered-By:
+      - hero-app
+      Content-Language:
+      - en
+      Etag:
+      - W/"b126eb8e83682dcfbc7f8fde6b745269"
+      X-Ratelimit-Limit:
+      - '50'
+      X-Ratelimit-Remaining:
+      - '48'
+      X-Request-Id:
+      - 5aff6d8a-ddc0-4f73-bc83-d9a3cf15fca0
+      X-Runtime:
+      - '0.041999'
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains
+      Via:
+      - 1.1 vegur, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 16 May 2023 16:00:44 GMT
+      X-Served-By:
+      - cache-iad-kcgs7200103-IAD, cache-chi-klot8100041-CHI
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Timer:
+      - S1684252844.382937,VS0,VE74
+      Vary:
+      - Accept-Encoding,Authorization,Accept-Language,Accept
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":"tAkCdLfAhzk","slug":"tAkCdLfAhzk","created_at":"2023-04-14T09:07:42Z","updated_at":"2023-05-08T00:20:21Z","promoted_at":"2023-04-27T13:23:25Z","width":5472,"height":3648,"color":"#c0c0c0","blur_hash":"LPKKD{1FMJtkT^r;b]NFR$InMcx]","description":null,"alt_description":"a
+        bowl filled with different types of vegetables","urls":{"raw":"https://plus.unsplash.com/premium_photo-1681406689666-5acd60f812e9?ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8\u0026ixlib=rb-4.0.3","full":"https://plus.unsplash.com/premium_photo-1681406689666-5acd60f812e9?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8\u0026ixlib=rb-4.0.3\u0026q=85","regular":"https://plus.unsplash.com/premium_photo-1681406689666-5acd60f812e9?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8\u0026ixlib=rb-4.0.3\u0026q=80\u0026w=1080","small":"https://plus.unsplash.com/premium_photo-1681406689666-5acd60f812e9?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8\u0026ixlib=rb-4.0.3\u0026q=80\u0026w=400","thumb":"https://plus.unsplash.com/premium_photo-1681406689666-5acd60f812e9?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8\u0026ixlib=rb-4.0.3\u0026q=80\u0026w=200","small_s3":"https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/unsplash-premium-photos-production/premium_photo-1681406689666-5acd60f812e9"},"links":{"self":"https://api.unsplash.com/photos/tAkCdLfAhzk","html":"https://unsplash.com/photos/tAkCdLfAhzk","download":"https://unsplash.com/photos/tAkCdLfAhzk/download?ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8","download_location":"https://api.unsplash.com/photos/tAkCdLfAhzk/download?ixid=M3w0NDgxNjV8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQyNTI4NDR8"},"likes":9,"liked_by_user":false,"current_user_collections":[],"sponsorship":null,"topic_submissions":{},"user":{"id":"J6SurYztdK4","updated_at":"2023-05-11T05:13:06Z","username":"maryamsicard","name":"Maryam
+        Sicard","first_name":"Maryam","last_name":"Sicard","twitter_username":null,"portfolio_url":"http://sezanestudio.com","bio":"As
+        the lead photographer at Sezane Food Photography Studio, I specialize in capturing
+        visually striking and appetizing images to showcase the delicious and mouthwatering
+        qualities of your culinary creations. contact@sezanestudio.com","location":"Mexico","links":{"self":"https://api.unsplash.com/users/maryamsicard","html":"https://unsplash.com/@maryamsicard","photos":"https://api.unsplash.com/users/maryamsicard/photos","likes":"https://api.unsplash.com/users/maryamsicard/likes","portfolio":"https://api.unsplash.com/users/maryamsicard/portfolio","following":"https://api.unsplash.com/users/maryamsicard/following","followers":"https://api.unsplash.com/users/maryamsicard/followers"},"profile_image":{"small":"https://images.unsplash.com/profile-1649808382945-c87ccf84bf3fimage?ixlib=rb-4.0.3\u0026crop=faces\u0026fit=crop\u0026w=32\u0026h=32","medium":"https://images.unsplash.com/profile-1649808382945-c87ccf84bf3fimage?ixlib=rb-4.0.3\u0026crop=faces\u0026fit=crop\u0026w=64\u0026h=64","large":"https://images.unsplash.com/profile-1649808382945-c87ccf84bf3fimage?ixlib=rb-4.0.3\u0026crop=faces\u0026fit=crop\u0026w=128\u0026h=128"},"instagram_username":null,"total_collections":1,"total_likes":14,"total_photos":1939,"accepted_tos":true,"for_hire":true,"social":{"instagram_username":null,"portfolio_url":"http://sezanestudio.com","twitter_username":null,"paypal_email":null}},"exif":{"make":null,"model":null,"name":null,"exposure_time":null,"aperture":null,"focal_length":null,"iso":null},"location":{"name":null,"city":null,"country":null,"position":{"latitude":0.0,"longitude":0.0}},"views":0,"downloads":0}]'
+  recorded_at: Tue, 16 May 2023 16:00:44 GMT
+recorded_with: VCR 6.1.0
