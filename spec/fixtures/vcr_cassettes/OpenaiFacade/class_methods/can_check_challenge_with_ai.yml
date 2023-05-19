@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":"I am
+        trying to learn Turkish. This sentence uses the grammar gelecek zaman (-ecek)
+        and the verb (e/a) gitmek: ''Yarın annem beni havalimanına bırakmak için araba
+        kullanacak.''. Correct this sentence if it''s wrong and explain what you changed.
+        This sentence uses the grammar olumsuz geçmiş zaman (-me/-ma + di/-tı) and
+        the verb (e/a) gitmek: ''Dün havalimana gittik ama arkadaşım uçak gelmedi.''.
+        Correct this sentence if it''s wrong and explain what you changed. Format
+        the output in JSON with parameters correction1, explanation1, correction2,
+        explanation2."}],"temperature":0.7,"max_tokens":600}'
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer OPENAI_API_KEY
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 00:51:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - no-cache, must-revalidate
+      Openai-Model:
+      - gpt-3.5-turbo-0301
+      Openai-Organization:
+      - user-qevwwrxhbj9zc0sjo1vddlts
+      Openai-Processing-Ms:
+      - '2582'
+      Openai-Version:
+      - '2020-10-01'
+      Strict-Transport-Security:
+      - max-age=15724800; includeSubDomains
+      X-Ratelimit-Limit-Requests:
+      - '3'
+      X-Ratelimit-Limit-Tokens:
+      - '40000'
+      X-Ratelimit-Remaining-Requests:
+      - '2'
+      X-Ratelimit-Remaining-Tokens:
+      - '39258'
+      X-Ratelimit-Reset-Requests:
+      - 20s
+      X-Ratelimit-Reset-Tokens:
+      - 1.113s
+      X-Request-Id:
+      - eba1388bcd03874d31f2f9ae7cfc493f
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c985a5a4c5f1f58-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6ImNoYXRjbXBsLTdIaWRLZGdXZ2ZCcE9HUUVpUWhsYzV1cW8ybE15Iiwib2JqZWN0IjoiY2hhdC5jb21wbGV0aW9uIiwiY3JlYXRlZCI6MTY4NDQ1NzUwMiwibW9kZWwiOiJncHQtMy41LXR1cmJvLTAzMDEiLCJ1c2FnZSI6eyJwcm9tcHRfdG9rZW5zIjoxNTcsImNvbXBsZXRpb25fdG9rZW5zIjoxNjMsInRvdGFsX3Rva2VucyI6MzIwfSwiY2hvaWNlcyI6W3sibWVzc2FnZSI6eyJyb2xlIjoiYXNzaXN0YW50IiwiY29udGVudCI6IntcbiAgXCJjb3JyZWN0aW9uMVwiOiBcIllhcsSxbiBhbm5lbSBiZW5pIGhhdmFsaW1hbsSxbmEgZ8O2dMO8cmVjZWsuXCIsXG4gIFwiZXhwbGFuYXRpb24xXCI6IFwiQ2hhbmdlZCB0aGUgdmVyYiAnYsSxcmFrbWFrJyAodG8gZHJvcCBvZmYpIHRvICdnw7Z0w7xybWVrJyAodG8gdGFrZS9icmluZykgdG8gbWF0Y2ggdGhlIGZ1dHVyZSB0ZW5zZSBvZiAnZ2VsZWNlayB6YW1hbicuXCIsXG4gIFwiY29ycmVjdGlvbjJcIjogXCJEw7xuIGhhdmFsaW1hbsSxbmEgZ2l0dGlrIGFtYSBhcmthZGHFn8SxbcSxbiB1w6dhxJ/EsSBnZWxtZWRpLlwiLFxuICBcImV4cGxhbmF0aW9uMlwiOiBcIkNoYW5nZWQgJ2Fya2FkYcWfxLFtIHXDp2FrIGdlbG1lZGknIHRvICdhcmthZGHFn8SxbcSxbiB1w6dhxJ/EsSBnZWxtZWRpJyB0byBtYWtlIHRoZSBzZW50ZW5jZSBncmFtbWF0aWNhbGx5IGNvcnJlY3QgYW5kIGFkZGVkIHRoZSBwb3NzZXNzaXZlIHN1ZmZpeCAnLcSxbicgdG8gc2hvdyB0aGF0IGl0J3MgdGhlIGZyaWVuZCdzIHBsYW5lIHRoYXQgZGlkbid0IGFycml2ZS5cIlxufSJ9LCJmaW5pc2hfcmVhc29uIjoic3RvcCIsImluZGV4IjowfV19Cg==
+  recorded_at: Fri, 19 May 2023 00:51:44 GMT
+recorded_with: VCR 6.1.0
