@@ -102,6 +102,7 @@ RSpec.describe "Api::V1::Users::Challenges", :vcr, type: :request do
         }
 
         headers = { 'CONTENT_TYPE' => 'application/json' }
+
         post "/api/v1/users/76767676/challenges", headers: headers, params: JSON.generate(challenge_params)
 
         expect(response.status).to eq(404)

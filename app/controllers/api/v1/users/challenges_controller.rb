@@ -12,7 +12,7 @@ class Api::V1::Users::ChallengesController < ApplicationController
     new_challenge = user.challenges.create(user_id: challenge_params[:user_id], language: challenge_params[:language], verb: challenge_params[:verb], eng_verb: challenge_params[:eng_verb], image_url: challenge_params[:image_url], image_alt_text: challenge_params[:image_alt_text])
     new_challenge.create_sentences(challenge_params[:sentences])
     updated_challenge = OpenaiFacade.check_challenge_with_ai(new_challenge)
-
+    
     render json: ChallengeIdSerializer.new(updated_challenge), status: :created
   end
 
