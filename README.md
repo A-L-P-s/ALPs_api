@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/A-L-P-s/ALPs_api">
-    <img src=".github/ALPs_logo_v2.jpg" alt="Logo" width="350">
+    <img src=".github/logo_final_alps.jpg" alt="Logo" width="350">
   </a>
  
 <!-- <h2 align="center"></h2> -->
@@ -15,7 +15,7 @@
       <hr><br>
       Now that you've "climbed the mountain" of learning another language, keep your skills fresh with regular practice! Language output (speaking & writing) is key but can get dull with routine drills, plus you may never know if it's entirely correct. <br><span>🔸</span><br> With ALPs, every writing challenge comes with an inspiring image to ignite your imagination, a random verb & grammar points to help focus your language, and immediate feedback with the help of AI!
     </p><br>
-    <a href="https://a-l-p-s.github.io/alps-ui/">Visit ALPs deployed site!</a>
+    <a href="https://a-l-p-s.github.io/alps-ui/">Visit the ALPs website!</a>
 </div>
 <hr>
 
@@ -67,8 +67,6 @@
 <span>🔸</span> [Front End Repository](https://github.com/A-L-P-s/alps-ui)
 <br>
 
-[Video Presentation] (EMBED VIDEO HERE)
-
 **ALPs** was created by a cross-functional development team of students from the Turing School of Software and Design as their [capstone project](https://mod4.turing.edu/projects/capstone/).
 
 The mission of **ALPs** is to provide users with writing promts that ignite their imagination and provide immediate feedback on their language output.
@@ -117,7 +115,7 @@ The `agile methodology` was chosen for backend development to expedite the app's
 If you'd like to demo this API on your local machine:
 1. Ensure you have the prerequisites
 1. Sign up for external API Keys
-1. Clone this repo: `git clone git@github.com:A-L-P-s/ALPs_api_sqlite_finale.git`
+1. Clone this repo: `git clone git@github.com:A-L-P-s/ALPs_api.git`
 1. Navigate to the root folder: `cd ALPs_api`
 1. Run: `bundle install`
 1. Run: `rails db:{create,migrate,seed}`
@@ -448,11 +446,15 @@ View these endpoints in [Postman] (add link here)
   <dl>
     <dt><span>🔸</span> Add authorization & authentication</dt>
       <dd>- Allow users to create own profile and dashboard</dd>
-    <dt><span>🔸</span> Expand AI functionality</dt>
-      <dd>- Add questions/quizes created by AI for language topics</dd>
-      <dd>- Create and save flashcards</dd>
-    <dt><span>🔸</span> Create administrative role</dt>
+      <dd>- Paid version to offer users individual OpenAI API key</dd>
+    <dt><span>🔸</span> Create administrative roles</dt>
       <dd>- Track statistics of all users and languages</dd>
+    <dt><span>🔸</span> Create microservices</dt>
+      <dd>- For additional API calls, language exercises, nad futher abstraction of code</dd>
+    <dt><span>🔸</span> Expand AI functionality</dt>
+      <dd>- Allow users to edit their first challenge attempt</dd>
+      <dd>- Add multiple queries that checked for which language was written & which part of a sentence in incorrect </dd>
+      <dd>- Include machine learning so AI can remember a user and can track commonly made errors</dd>
   </dl>
 </details>
 
@@ -462,14 +464,6 @@ View these endpoints in [Postman] (add link here)
 
 <br>
 
-| [<img alt="Kirk Hauck" width="100" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="100" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="100" src=".github/Katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="100" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="100" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
-| ------------------ | ------------ | -------------- | ----------- | -------------- | 
-| Kirk Hauck | Bea Ordonez | Katherine Blaine | Tyalor Pridgen | Brian Zanti | 
-| FrontEnd | FrontEnd | FrontEnd | Project Mentor | Project Manager |
-| [GitHub](https://github.com/kirkhauck) | [GitHub](https://github.com/bea-ordonez) | [GitHub](https://github.com/KatherineBlaine) | [GitHub](https://github.com/pridgey) | [GitHub](https://github.com/BrianZanti) |
-| [LinkedIn](https://www.linkedin.com/in/kirk-hauck/) |  [LinkedIn](https://www.linkedin.com/in/bea-ordonez/) | [LinkedIn](https://www.linkedin.com/in/katherinekblaine/) | [LinkedIn](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [LinkedIn](https://www.linkedin.com/in/brianzanti/) |
-
-<br>
 
 | [<img alt="Caleb Thomas" width="100" src=".github/caleb.jpg"/>](https://www.linkedin.com/in/calebjthomas/) | [<img alt="James Taylor" width="100" src=".github/james.jpg"/>](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [<img alt="Huy Phan" width="100" src=".github/huy.jpg"/>](https://www.linkedin.com/in/huy-phan-2471b3261/) | [<img alt="David Marino" width="100" src=".github/david.jpg"/>](https://www.linkedin.com/in/davidjmarino8/) | [<img alt="Melony Erin Franchini" width="100" src=".github/mel.jpg"/>](https://www.linkedin.com/in/melony-erin-franchini/) |
 | ------------------ | ------------ | -------------- | ----------- | -------------- | 
@@ -477,5 +471,14 @@ View these endpoints in [Postman] (add link here)
 | BackEnd | BackEnd | BackEnd | BackEnd | BackEnd | 
 | [GitHub](https://github.com/cjthomas00) | [GitHub](https://github.com/JTaylor28) | [GitHub](https://github.com/HuyPhan2025) | [GitHub](https://github.com/davejm8) | [GitHub](https://github.com/MelTravelz) |
 | [LinkedIn](https://www.linkedin.com/in/calebjthomas/) |  [LinkedIn](https://www.linkedin.com/in/james-taylor-a02a7a199/) | [LinkedIn](https://www.linkedin.com/in/huy-phan-2471b3261/) | [LinkedIn](https://www.linkedin.com/in/davidjmarino8/) | [LinkedIn](https://www.linkedin.com/in/melony-erin-franchini/) |
+
+<br>
+
+| [<img alt="Kirk Hauck" width="100" src=".github/kirk.jpg"/>](https://www.linkedin.com/in/kirk-hauck/) | [<img alt="Bea Ordonez" width="100" src=".github/bea.jpg"/>](https://www.linkedin.com/in/bea-ordonez/) | [<img alt="Katherine Blaine" width="100" src=".github/Katherine.jpg"/>](https://www.linkedin.com/in/katherinekblaine/) | [<img alt="Tyalor Pridgen" width="100" src=".github/taylor.jpg"/>](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [<img alt="Brian Zanti" width="100" src=".github/brian.jpg"/>](https://www.linkedin.com/in/brianzanti/) | 
+| ------------------ | ------------ | -------------- | ----------- | -------------- | 
+| Kirk Hauck | Bea Ordonez | Katherine Blaine | Tyalor Pridgen | Brian Zanti | 
+| FrontEnd | FrontEnd | FrontEnd | Project Mentor | Project Manager |
+| [GitHub](https://github.com/kirkhauck) | [GitHub](https://github.com/bea-ordonez) | [GitHub](https://github.com/KatherineBlaine) | [GitHub](https://github.com/pridgey) | [GitHub](https://github.com/BrianZanti) |
+| [LinkedIn](https://www.linkedin.com/in/kirk-hauck/) |  [LinkedIn](https://www.linkedin.com/in/bea-ordonez/) | [LinkedIn](https://www.linkedin.com/in/katherinekblaine/) | [LinkedIn](https://www.linkedin.com/in/taylor-pridgen-a3aa7918/) | [LinkedIn](https://www.linkedin.com/in/brianzanti/) |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
